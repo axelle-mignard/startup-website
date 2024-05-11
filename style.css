@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+
+body {
+    background-color: #494d3cdd;
+    font-family: 'Playfair Display', serif; 
+    color: #025; 
+    margin: 0; 
+    padding: 0; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url('erza kinda.png');
+    background-size: contain;
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 1200px;
+    margin-top: 100px;
+    margin-bottom: auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.profile-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.profile-header h1 {
+    color: #000;
+    font-size: 36px;
+}
+
+.profile-header img {
+    display: inline-block;
+    margin: 0 10px;
+    max-width: 40%;
+}
+
+.profile-content h2 {
+    font-size: 20px;
+    margin-bottom: 7px;
+}
+
+.profile-content button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    background-color: #7777;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.profile-content button:hover {
+    background-color: #4b0f81;
+}
+#apply-section {
+    cursor: pointer;
+}
+
+#apply-form {
+    display: none; /* Hide the form initially */
+}
